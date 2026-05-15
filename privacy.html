@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShiftSnap — Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+    h1 { color: #6C63FF; letter-spacing: -0.5px; }
+    h2 { margin-top: 32px; color: #1a1a2e; font-size: 20px; }
+    h3 { margin-top: 20px; color: #1a1a2e; font-size: 16px; }
+    .meta { color: #888; font-size: 14px; margin-bottom: 32px; }
+    a { color: #6C63FF; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #e0e0ee;
+      padding: 8px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f5f6fa; }
+    .footer {
+      margin-top: 48px;
+      border-top: 1px solid #eee;
+      padding-top: 16px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective: May 14, 2026</p>
+
+  <p>
+    This Privacy Policy explains how Matthew Ryan Grimmett, an individual
+    operating in West Virginia, United States ("we", "us", "our") collects,
+    uses, and protects information when you use the ShiftSnap mobile
+    application (the "App"). We respect your privacy and only collect the
+    minimum data needed for the App to function.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+
+  <h3>1.1 Account Information</h3>
+  <p>When you sign up, we collect:</p>
+  <ul>
+    <li>Email address</li>
+    <li>Full name (if you choose to provide it, or via Sign in with Apple)</li>
+    <li>An encrypted password (handled by Supabase Auth — we never see plaintext passwords)</li>
+  </ul>
+
+  <h3>1.2 Work &amp; Shift Data</h3>
+  <p>The App stores everything you create inside it:</p>
+  <ul>
+    <li>Jobs (name, employer, hourly rate, color, icon)</li>
+    <li>Shifts (clock-in and clock-out times, hours worked, breaks)</li>
+    <li>Notes (text you type during a shift)</li>
+    <li>Photos and videos you attach to shifts</li>
+    <li>Tax settings (federal / state / local / FICA rates you configure)</li>
+    <li>Pay schedule (period type and next pay date)</li>
+  </ul>
+
+  <h3>1.3 Location Data (optional, Pro feature)</h3>
+  <p>
+    If you enable GPS Location Logging in Settings, the App records your
+    device's latitude and longitude when you tap "Log Location" or clock
+    in. Location is never recorded passively in the background — only when
+    you take an action that requests it. You can disable GPS logging at any
+    time in Settings → Premium Tools → GPS Logging.
+  </p>
+
+  <h3>1.4 Subscription &amp; Purchase Data</h3>
+  <p>
+    Subscription status is managed by Apple In-App Purchase and RevenueCat.
+    We receive the entitlement status ("Pro" vs. "Free"), product
+    identifier, renewal date, and an anonymous user identifier — but
+    <strong>we do not see your credit card or full Apple ID</strong>. All
+    payment processing is handled by Apple.
+  </p>
+
+  <h3>1.5 Diagnostic Data</h3>
+  <p>
+    We may receive crash reports and basic diagnostic information from
+    Expo and Apple to fix bugs. This data is aggregated and does not
+    identify you personally.
+  </p>
+
+  <h2>2. How We Use Your Information</h2>
+  <ul>
+    <li><strong>To run the App.</strong> Your shifts, notes, photos, and settings power every feature you see.</li>
+    <li><strong>To sync across devices.</strong> Pro users get cloud sync so the same data appears on every device they sign in to.</li>
+    <li><strong>To manage subscriptions.</strong> RevenueCat confirms whether you have an active subscription.</li>
+    <li><strong>To improve the App.</strong> Aggregated crash data helps us fix bugs.</li>
+    <li><strong>To contact you.</strong> If you email us at our support address, we'll use your email to reply.</li>
+  </ul>
+  <p>
+    We <strong>do not</strong> use your data for advertising, sell it to
+    third parties, or share it with data brokers.
+  </p>
+
+  <h2>3. Third-Party Services We Use</h2>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>What it does</th><th>Data shared</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://supabase.com/privacy">Supabase</a></td>
+        <td>Database, authentication, file storage</td>
+        <td>Email, encrypted password, all in-app content (shifts, notes, photos, etc.)</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.revenuecat.com/privacy">RevenueCat</a></td>
+        <td>Subscription management</td>
+        <td>Anonymous user ID, entitlement status, purchase events</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.apple.com/legal/privacy/">Apple</a></td>
+        <td>Sign in with Apple, In-App Purchase, push notifications</td>
+        <td>Apple ID identifier (anonymized), purchase receipts, device push token</td>
+      </tr>
+      <tr>
+        <td><a href="https://expo.dev/privacy">Expo</a></td>
+        <td>Mobile app framework and crash reporting</td>
+        <td>Anonymized crash reports, basic device info</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>4. Data Retention</h2>
+  <p>
+    We keep your data for as long as your account exists. When you delete
+    your account, all your data is removed from our active databases within
+    30 days. Backups are rotated and fully overwritten within 90 days.
+  </p>
+
+  <h2>5. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access</strong> a copy of the data we hold about you.</li>
+    <li><strong>Correct</strong> any inaccurate information.</li>
+    <li><strong>Delete</strong> your account and all associated data.</li>
+    <li><strong>Export</strong> your data (PDF timesheets and invoices are available inside the App).</li>
+    <li><strong>Object</strong> to processing or withdraw consent at any time.</li>
+  </ul>
+  <p>
+    To exercise any of these rights, email
+    <a href="mailto:shiftsnapsupport@gmail.com">shiftsnapsupport@gmail.com</a>.
+    We respond within 30 days.
+  </p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>
+    ShiftSnap is not intended for children under 13. We do not knowingly
+    collect personal information from children under 13. If you believe a
+    child has provided us with personal information, contact us and we will
+    delete it.
+  </p>
+
+  <h2>7. Security</h2>
+  <p>
+    All traffic between the App and our backend uses HTTPS encryption.
+    Passwords are hashed with industry-standard algorithms by Supabase. Data
+    at rest is encrypted on Supabase's servers. That said, no system is
+    100% secure — if you suspect your account has been compromised, change
+    your password immediately and email us.
+  </p>
+
+  <h2>8. International Users</h2>
+  <p>
+    The App is operated from the United States. If you use the App from
+    outside the U.S., your information will be transferred to and processed
+    in the U.S. By using the App you consent to that transfer.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Material changes
+    will be announced inside the App. The "Effective" date at the top of
+    this page indicates when the latest version took effect.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    Questions about this Privacy Policy or your data? Email
+    <a href="mailto:shiftsnapsupport@gmail.com">shiftsnapsupport@gmail.com</a>.
+  </p>
+
+  <p class="footer">
+    © 2026 Matthew Ryan Grimmett. All rights reserved.
+  </p>
+</body>
+</html>
