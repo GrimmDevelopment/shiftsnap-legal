@@ -1,0 +1,1 @@
+# shiftsnap-legal
