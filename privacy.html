@@ -33,6 +33,13 @@
       vertical-align: top;
     }
     th { background: #f5f6fa; }
+    .highlight {
+      background: #f5f6fa;
+      border-left: 3px solid #6C63FF;
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 0 8px 8px 0;
+    }
     .footer {
       margin-top: 48px;
       border-top: 1px solid #eee;
@@ -44,7 +51,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective: May 14, 2026</p>
+  <p class="meta">Effective: May 22, 2026 &nbsp;|&nbsp; Previous version: May 14, 2026</p>
 
   <p>
     This Privacy Policy explains how Matthew Ryan Grimmett, an individual
@@ -53,6 +60,11 @@
     application (the "App"). We respect your privacy and only collect the
     minimum data needed for the App to function.
   </p>
+
+  <div class="highlight">
+    <strong>Short version:</strong> We collect only what you give us. We don't sell your data.
+    We don't run ads. You can delete everything at any time.
+  </div>
 
   <h2>1. Information We Collect</h2>
 
@@ -71,6 +83,7 @@
     <li>Shifts (clock-in and clock-out times, hours worked, breaks)</li>
     <li>Notes (text you type during a shift)</li>
     <li>Photos and videos you attach to shifts</li>
+    <li>Expenses you log</li>
     <li>Tax settings (federal / state / local / FICA rates you configure)</li>
     <li>Pay schedule (period type and next pay date)</li>
   </ul>
@@ -78,17 +91,17 @@
   <h3>1.3 Location Data (optional, Pro feature)</h3>
   <p>
     If you enable GPS Location Logging in Settings, the App records your
-    device's latitude and longitude when you tap "Log Location" or clock
-    in. Location is never recorded passively in the background — only when
-    you take an action that requests it. You can disable GPS logging at any
-    time in Settings → Premium Tools → GPS Logging.
+    device's latitude and longitude when you clock in. Location is never
+    recorded passively in the background — only when you take an action
+    that requests it. You can disable GPS logging at any time in
+    Settings → Premium Tools → GPS Logging.
   </p>
 
   <h3>1.4 Subscription &amp; Purchase Data</h3>
   <p>
     Subscription status is managed by Apple In-App Purchase and RevenueCat.
-    We receive the entitlement status ("Pro" vs. "Free"), product
-    identifier, renewal date, and an anonymous user identifier — but
+    We receive the entitlement status ("Pro" vs. "Free"), product identifier,
+    renewal date, and an anonymous user identifier — but
     <strong>we do not see your credit card or full Apple ID</strong>. All
     payment processing is handled by Apple.
   </p>
@@ -101,13 +114,39 @@
   </p>
 
   <h2>2. How We Use Your Information</h2>
-  <ul>
-    <li><strong>To run the App.</strong> Your shifts, notes, photos, and settings power every feature you see.</li>
-    <li><strong>To sync across devices.</strong> Pro users get cloud sync so the same data appears on every device they sign in to.</li>
-    <li><strong>To manage subscriptions.</strong> RevenueCat confirms whether you have an active subscription.</li>
-    <li><strong>To improve the App.</strong> Aggregated crash data helps us fix bugs.</li>
-    <li><strong>To contact you.</strong> If you email us at our support address, we'll use your email to reply.</li>
-  </ul>
+
+  <table>
+    <thead>
+      <tr><th>Purpose</th><th>Lawful basis (GDPR)</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>To run the App and deliver features you've requested</td>
+        <td>Contract performance (Art. 6(1)(b))</td>
+      </tr>
+      <tr>
+        <td>To manage subscriptions and verify Pro access</td>
+        <td>Contract performance (Art. 6(1)(b))</td>
+      </tr>
+      <tr>
+        <td>To sync data across your devices</td>
+        <td>Contract performance (Art. 6(1)(b))</td>
+      </tr>
+      <tr>
+        <td>To fix bugs using aggregated crash data</td>
+        <td>Legitimate interests (Art. 6(1)(f))</td>
+      </tr>
+      <tr>
+        <td>To respond to your support emails</td>
+        <td>Legitimate interests (Art. 6(1)(f))</td>
+      </tr>
+      <tr>
+        <td>To comply with legal obligations</td>
+        <td>Legal obligation (Art. 6(1)(c))</td>
+      </tr>
+    </tbody>
+  </table>
+
   <p>
     We <strong>do not</strong> use your data for advertising, sell it to
     third parties, or share it with data brokers.
@@ -150,55 +189,97 @@
   </p>
 
   <h2>5. Your Rights</h2>
-  <p>You have the right to:</p>
+  <p>Depending on where you live, you have different rights over your data. We honour all of them regardless of location.</p>
+
+  <h3>5.1 Rights for all users</h3>
   <ul>
-    <li><strong>Access</strong> a copy of the data we hold about you.</li>
-    <li><strong>Correct</strong> any inaccurate information.</li>
-    <li><strong>Delete</strong> your account and all associated data.</li>
-    <li><strong>Export</strong> your data (PDF timesheets and invoices are available inside the App).</li>
-    <li><strong>Object</strong> to processing or withdraw consent at any time.</li>
+    <li><strong>Access</strong> — request a copy of all data we hold about you.</li>
+    <li><strong>Correction</strong> — ask us to fix inaccurate information.</li>
+    <li><strong>Deletion</strong> — delete your account and all associated data inside the App, or email us.</li>
+    <li><strong>Export</strong> — download your data (PDF timesheets and CSV exports are available inside the App).</li>
   </ul>
+
+  <h3>5.2 Additional rights for EEA, UK &amp; Swiss residents (GDPR / UK GDPR)</h3>
+  <ul>
+    <li><strong>Right to restriction</strong> — ask us to pause processing while a dispute is resolved.</li>
+    <li><strong>Right to portability</strong> — receive your data in a machine-readable format.</li>
+    <li><strong>Right to object</strong> — object to processing based on legitimate interests.</li>
+    <li><strong>Right to withdraw consent</strong> — where processing is based on consent, you can withdraw at any time.</li>
+    <li><strong>Right to lodge a complaint</strong> — you have the right to file a complaint with your local data protection authority (e.g. ICO in the UK, or your EU member state's authority).</li>
+  </ul>
+
+  <h3>5.3 Additional rights for California residents (CCPA / CPRA)</h3>
+  <ul>
+    <li><strong>Right to know</strong> — request disclosure of the categories and specific pieces of personal information we have collected.</li>
+    <li><strong>Right to delete</strong> — request deletion of your personal information.</li>
+    <li><strong>Right to correct</strong> — request correction of inaccurate personal information.</li>
+    <li><strong>Right to opt out of sale or sharing</strong> — we do <strong>not</strong> sell or share personal information for cross-context behavioural advertising.</li>
+    <li><strong>Right to non-discrimination</strong> — we will not discriminate against you for exercising any of these rights.</li>
+  </ul>
+
+  <h3>5.4 Additional rights for Canadian residents (PIPEDA)</h3>
+  <ul>
+    <li>You have the right to access personal information we hold about you and to challenge its accuracy.</li>
+    <li>You may withdraw consent to our collection or use of your personal information at any time, subject to legal or contractual restrictions, by contacting us.</li>
+  </ul>
+
+  <h3>5.5 Additional rights for Australian residents (Privacy Act 1988)</h3>
+  <ul>
+    <li>You have the right to access and seek correction of personal information we hold about you in accordance with the Australian Privacy Principles (APPs).</li>
+    <li>You may complain to the Office of the Australian Information Commissioner (OAIC) if you believe we have breached the APPs.</li>
+  </ul>
+
   <p>
     To exercise any of these rights, email
     <a href="mailto:shiftsnapsupport@gmail.com">shiftsnapsupport@gmail.com</a>.
-    We respond within 30 days.
+    We respond within 30 days (or within 1 month for GDPR requests).
   </p>
 
-  <h2>6. Children's Privacy</h2>
+  <h2>6. International Data Transfers</h2>
   <p>
-    ShiftSnap is not intended for children under 13. We do not knowingly
-    collect personal information from children under 13. If you believe a
-    child has provided us with personal information, contact us and we will
-    delete it.
+    ShiftSnap is operated from the United States. Our infrastructure providers
+    (Supabase, RevenueCat, Expo) may process your data in the United States or
+    other countries. Where data is transferred from the EEA, UK, or Switzerland
+    to countries without an adequacy decision, we rely on Standard Contractual
+    Clauses (SCCs) or other appropriate safeguards as required by applicable law.
+    By using the App, you acknowledge that your data may be transferred to and
+    processed in countries outside your own.
   </p>
 
-  <h2>7. Security</h2>
+  <h2>7. Children's Privacy</h2>
   <p>
-    All traffic between the App and our backend uses HTTPS encryption.
+    ShiftSnap is not intended for children under 13 (or under 16 where required
+    by local law). We do not knowingly collect personal information from children
+    below these age thresholds. If you believe a child has provided us with
+    personal information, contact us and we will delete it promptly.
+  </p>
+
+  <h2>8. Security</h2>
+  <p>
+    All traffic between the App and our backend uses HTTPS/TLS encryption.
     Passwords are hashed with industry-standard algorithms by Supabase. Data
-    at rest is encrypted on Supabase's servers. That said, no system is
-    100% secure — if you suspect your account has been compromised, change
-    your password immediately and email us.
-  </p>
-
-  <h2>8. International Users</h2>
-  <p>
-    The App is operated from the United States. If you use the App from
-    outside the U.S., your information will be transferred to and processed
-    in the U.S. By using the App you consent to that transfer.
+    at rest is encrypted on Supabase's servers. No system is 100% secure — if
+    you suspect your account has been compromised, change your password
+    immediately and email us.
   </p>
 
   <h2>9. Changes to This Policy</h2>
   <p>
     We may update this Privacy Policy from time to time. Material changes
     will be announced inside the App. The "Effective" date at the top of
-    this page indicates when the latest version took effect.
+    this page indicates when the latest version took effect. Where required
+    by law, we will obtain your consent before making material changes.
   </p>
 
-  <h2>10. Contact</h2>
+  <h2>10. Contact &amp; Data Controller</h2>
   <p>
-    Questions about this Privacy Policy or your data? Email
-    <a href="mailto:shiftsnapsupport@gmail.com">shiftsnapsupport@gmail.com</a>.
+    <strong>Data Controller:</strong> Matthew Ryan Grimmett<br>
+    West Virginia, United States<br>
+    <a href="mailto:shiftsnapsupport@gmail.com">shiftsnapsupport@gmail.com</a>
+  </p>
+  <p>
+    For privacy-related requests, complaints, or questions about this policy,
+    please email the address above. We aim to respond within 30 days.
   </p>
 
   <p class="footer">
