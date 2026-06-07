@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShiftSnap — Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0f0f;
+      color: #e0e0e0;
+      line-height: 1.7;
+      font-size: 16px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #1a1a1a;
+      border-bottom: 1px solid #2a2a2a;
+      padding: 20px 24px;
+      text-align: center;
+    }
+    header .logo { font-size: 22px; font-weight: 700; color: #ffffff; letter-spacing: -0.3px; }
+    header .logo span { color: #4f8ef7; }
+    header .subtitle { font-size: 13px; color: #888; margin-top: 4px; }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+      flex: 1;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .tagline {
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 48px;
+    }
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .card p { color: #aaa; font-size: 15px; margin-bottom: 14px; }
+    .card p:last-child { margin-bottom: 0; }
+    a.button {
+      display: inline-block;
+      background: #4f8ef7;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 10px 22px;
+      border-radius: 8px;
+      margin-top: 4px;
+    }
+    a.button:hover { background: #3a7de8; }
+    a { color: #4f8ef7; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .legal-links {
+      display: flex;
+      gap: 24px;
+      margin-top: 40px;
+      padding-top: 32px;
+      border-top: 1px solid #222;
+    }
+    .legal-links a { font-size: 14px; color: #666; }
+    .legal-links a:hover { color: #4f8ef7; }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #444;
+      padding: 24px;
+      border-top: 1px solid #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Shift<span>Snap</span></div>
+  <div class="subtitle">Support &amp; Legal</div>
+</header>
+
+<main>
+  <h1>How can we help?</h1>
+  <p class="tagline">ShiftSnap — Shift &amp; Earnings Tracker</p>
+
+  <div class="card">
+    <h2>Contact Support</h2>
+    <p>Have a question, found a bug, or need help with your account? Send us an email and we'll get back to you as quickly as possible.</p>
+    <a class="button" href="mailto:support.shiftsnap@gmail.com">Email Support</a>
+  </div>
+
+  <div class="card">
+    <h2>Account &amp; Data</h2>
+    <p>To delete your account and all associated data, open ShiftSnap and go to <strong>Settings → Delete Account</strong>. This permanently removes all your shifts, jobs, and personal information from our servers.</p>
+    <p>To clear locally cached data only (conversation history, preferences), go to <strong>Settings → Clear Cache</strong>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Subscriptions</h2>
+    <p>ShiftSnap Pro subscriptions are managed entirely through the Apple App Store. To cancel, update, or view your subscription, go to <strong>iOS Settings → Apple ID → Subscriptions → ShiftSnap</strong>.</p>
+    <p>For refund requests, please use Apple's standard App Store refund process.</p>
+  </div>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>My clock-in time looks wrong.</strong> If you clocked in while offline, the timestamp syncs when connectivity is restored. The final record uses the original clock-in time, not the sync time.</p>
+    <p><strong>My widget isn't updating.</strong> iOS controls how often widgets refresh. If your widget appears stale, open the app briefly to force a sync. Live Activities update in real time when the app is active.</p>
+    <p><strong>I can't find Shifty AI.</strong> Shifty requires iOS 26 or later with Apple Intelligence enabled for the full on-device AI experience. It's available from the chat icon inside the app.</p>
+  </div>
+
+  <div class="legal-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:support.shiftsnap@gmail.com">support.shiftsnap@gmail.com</a>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 ShiftSnap. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
